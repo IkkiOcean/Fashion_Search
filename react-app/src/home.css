@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+
+.container{
+    background-color: rgb(49, 48, 48);
+    min-height: 100vh;
+    max-height: fit-content;
+    display: grid;
+}
+.main-logo{
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+}
+.main-logo img{
+    display: block;
+    padding: 10px 0px 5px 0px;
+    width: 20%;
+    margin: auto;
+}
+.row1{
+    /* padding: 10px; */
+    height: fit-content;
+    margin-bottom: 15px
+    /* border: 2px red solid; */   
+}
+/* .search-icon{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin-top: 4px;
+    margin-right: 9.5%;
+    z-index: 8;
+    opacity: 1;
+} */
+.formcontrol{
+  width: 80%;
+  height: 2rem;
+  border-radius: 20px;
+  display: inline-block;
+  padding: 0.5rem;
+  z-index: 4;
+  border: none;
+  margin-left: 5%;
+  font-size: large;
+  font-weight: 500;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center
+}
+.formcontrol::placeholder{
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    opacity: 1;
+}
+.formcontrol:focus::placeholder {
+    opacity: 0;
+}
+  
+#upload{
+    display: inline-block;
+    position: relative;
+    margin-left: 20px;
+    height: 3rem;
+    width: 6rem;
+    border-radius: 20px; 
+    background-color: rgb(244, 211, 245);
+    border: none;
+    top: 12px;
+    
+}
+#upload:hover{
+    cursor: pointer;
+}
+.search-icon{
+    position: relative;
+    top: 2px;
+    width:50px;
+    height: 40px;
+}
+.search-icon-gif{
+    position: relative;
+    top: 1px;
+    width:50px;
+    height: 40px;
+}
+.card{
+    display: inline-flex;
+    background-color: white;
+    width: 25%;
+    margin: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    
+}
+.cardList{
+    /* padding-top: 5px; */
+    /* margin-left: 90px; */
+    margin-bottom: 15%;
+    
+    background-color:#ec7168;
+}
+.card-body{
+    background-color: #FBF3D5;
+    padding: 0px;
+    border-radius: 10px;
+    text-align: center;
+    font: bold;
+    font-family: "Poppins", sans-serif;
+}
+.card-bottom{
+    margin: 10px;
+}
+
+.name{
+    margin: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Roboto;
+    background-color:#ec7168;
+    border-radius: 5px;
+}
+.start-image{
+    width: 50%;
+    height: fit-content;
+    margin: auto;   
+    background-color:#ec7168;
+    position: relative;
+}
+#loading{
+    position: absolute;
+    top: 140px;
+    left: 130px;
+    max-width:  200px;
+    max-width: 200px;
+    margin: auto;   
+}
+.row2{
+
+    background-color:#ec7168;
+}
+.result-box{
+    background-color: #f3b3ae;
+    margin: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: "Baskervville SC", serif;
+    font-weight: 500;
+    padding: 10px;
+}
+.description-button:hover{
+    cursor: pointer;
+}
