@@ -14,7 +14,7 @@ import opendatasets as od  #downloads from kaggle
 
 
 kaggle_url = "https://www.kaggle.com/datasets/djagatiya/myntra-fashion-product-dataset"
-db_url = 'https://drive.google.com/drive/folders/1TUhALPqcZKX9RJrc24hvKF_GVVJpsLja'
+db_url = 'YOUR GOOGLE DRIVE URL TO STORE THE MODEL CREATED'
 
 if os.path.exists('myntra-fashion-product-dataset'):
     print("Myntra dataset already preset")
