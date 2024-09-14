@@ -1,4 +1,4 @@
-```markdown
+
 # Flask and React Project
 
 This project consists of a backend server built with Python Flask and a frontend application built with React. The Flask server provides a RESTful API, and the React app consumes this API to display data to the user.
@@ -7,6 +7,7 @@ This project consists of a backend server built with Python Flask and a frontend
 ## Installation
 
 ### Backend Setup
+```markdown
 
 1. Download Myntra DataSet and extract in a file named ‘archive’ :
     
@@ -19,6 +20,7 @@ This project consists of a backend server built with Python Flask and a frontend
    ```
 
 3. Install the required packages:
+ ```markdown
    ```bash
    pip install -r requirements.txt
    ```
