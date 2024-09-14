@@ -1,6 +1,5 @@
 
 # Fashion Search (Semantic Search Project)
-![Fashion Search AI](https://github.com/your-username/fashion-search-ai)
 
 Fashion Search AI is a deep learning project that provides a semantic search engine for fashion items. It is built using the Myntra dataset and leverages advanced natural language processing (NLP) techniques to allow users to search for fashion products using natural language queries. This project is ideal for building a search engine for fashion e-commerce platforms.
 
