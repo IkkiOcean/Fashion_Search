@@ -8,7 +8,7 @@ Fashion Search AI is a deep learning project that provides a semantic search eng
 Fashion Search AI aims to enhance the search experience on fashion e-commerce platforms by using semantic search techniques. Instead of relying solely on keyword matching, the model understands the context and meaning behind user queries, providing more accurate and relevant search results.
 
 
-#### Click on Tumbnail to Watch Working
+#### Click on Thumbnail to Watch Working
 [![Watch the video](./image/fashion_search.jpeg)](https://www.youtube.com/watch?v=A0R3AEVN89o)
 ## Features
 
